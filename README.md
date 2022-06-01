@@ -14,7 +14,7 @@ Once activated, configure project id, topic name and service account on settings
 
 ![Once activated, configure project id, topic name and service account on settings page](/gfx/configure-plugin.png)
 
-Voilà! After every file uploaded suceccesfully, this plugin will send a message to the PubSub topic configured. With message format:
+Voilà! After every file uploaded successfully, this plugin will send a message to the PubSub topic configured. With message format:
 
 ```json
 {
