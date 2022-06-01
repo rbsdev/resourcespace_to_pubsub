@@ -1,0 +1,20 @@
+name: resourcespace_to_pubsub
+title: Resourcespace to PubSub
+
+author: Luis Fernando Gomes
+
+# Make sure that the version number is displayed with at least one decimal place.
+# (E.g. 1 -> 1.0 ; 0.92 -> 0.92)
+version: 0.1
+
+desc: This ResourceSpace plugin will send a message to a specified Google Pubsub Topic when a user uploads a file
+
+category: Content Sharing
+
+icon: fa fa-google
+
+info_url: https://github.com/rbsdev/resourcespace_to_pubsub
+
+config_url: /plugins/resourcespace_to_pubsub/pages/setup.php
+
+disable_group_select: 1

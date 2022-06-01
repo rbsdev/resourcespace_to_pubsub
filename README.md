@@ -1,11 +1,17 @@
 # ResourceSpace to Pubsub
 
-This plugin will send a message to a [Google Pubsub](https://cloud.google.com/pubsub) Topic when a user uploads a file.
+This [ResourceSpace plugin](https://www.resourcespace.com/knowledge-base/developers/modifications-and-writing-your-own-plugin) will send a message to a specified [Google Pubsub](https://cloud.google.com/pubsub) Topic when a user uploads a file.
 
-Just activate and change configure settings in the plugin manager - no coding required.
+## Message Format
+
+```json
+{
+    "resource_id": "id of resource"
+}
+```
 
 # Installation
 
-* Unzip this plugin on resourcespace plugins folder
-* Activate
-* Configure topic name and service account
+To install this plugin, extract it in the ResourceSpace plugins directory, and then either add "resourcespace_to_pubsub" to your plugins array in config.php, or use the new plugins manager to activate it.
+
+After activate plugin, configure project id, topic name and service account on settings page.
