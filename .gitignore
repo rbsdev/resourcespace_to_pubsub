@@ -1,4 +1,5 @@
 *.tar.gz
+*.rsp
 
 # Created by https://www.toptal.com/developers/gitignore/api/linux,macos,windows,phpunit,composer,visualstudiocode,intellij+all
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,windows,phpunit,composer,visualstudiocode,intellij+all
